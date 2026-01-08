@@ -28,4 +28,25 @@ Callback functions
 Express
   Express.js is a minimal, fast web framework for Node.js used to build web servers and APIs easily.
 
+Sockets
+  it allows real time communication between server and client use to build chat apps
+  socket.io is a library built on ws (web sockets) 
+      easier than raw WebSocket
+
+Middlewares
+  Middleware is a function that runs between request and response
+  app.use(middleware)
+  (req, res, next) => {
+    next();
+  }
+
+Examples of middlewares:
+  cookie-parser
+  cookie-session
+  express-session
+
+
+
+
+
 
