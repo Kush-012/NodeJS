@@ -1,0 +1,31 @@
+Node JS
+  Runtime engine used to run JS code
+  Open source
+  asynchronous (non-blocking)
+
+Modules
+Core  
+  http
+  fs
+  path
+  events
+
+Local
+  user defined
+
+Third party
+  express
+  mongoose
+  pg
+  nodemon
+  socket.io
+
+Callback functions
+  A callback is a function passed as an argument to another function and executed later.
+  Used for non-sync operations
+  Eg: after reading data from file Node JS(it reads in async way) don't know what to do next therefore it needed callback functions.
+
+Express
+  Express.js is a minimal, fast web framework for Node.js used to build web servers and APIs easily.
+
+
