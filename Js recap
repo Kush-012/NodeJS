@@ -1,0 +1,27 @@
+1. Hoisting means during the memory creation phase of the execution context, JavaScript moves declarations to the top of their scope before code execution.
+Eg: 
+
+og();
+function og(){
+    console.log("hello");
+} 
+
+console.log(abc);
+var abc="abc"; 
+
+console.log(ab);
+let ab="ab"; 
+
+Output:
+hello
+undefined
+reference error
+
+2. let,var and const:
+ let: block scoped, can be hoisted gives refernce error due to uninitialisation, not redeclared, but can be reassigned
+ var: function scoped, can be hoisted gives undefined, redeclared, can be reassigned
+ const block scoped, can be hoisted gives refernce error due to uninitialisation, not redeclared, not reassigned
+
+3. Callback functions:
+
+
