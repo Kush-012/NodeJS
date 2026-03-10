@@ -17,11 +17,29 @@ hello
 undefined
 reference error
 
+
 2. let,var and const:
  let: block scoped, can be hoisted gives refernce error due to uninitialisation, not redeclared, but can be reassigned
  var: function scoped, can be hoisted gives undefined, redeclared, can be reassigned
  const block scoped, can be hoisted gives refernce error due to uninitialisation, not redeclared, not reassigned
 
-3. Callback functions:
+
+3. Sync vs Async:
+    Synchronous vs Asynchronous: In synchronous execution tasks run one after another with waiting, 
+    while in asynchronous execution tasks run without waiting and can execute in the background.
 
 
+4. Callback functions:
+A callback function is a function passed as an argument to another function that is executed later after the main function finishes.
+Eg:
+    function greet(name, callback) {
+    console.log("Hello " + name);
+    callback();
+}
+function sayBye() {
+    console.log("Bye!");
+}
+greet("Kush", sayBye);
+
+
+5.
